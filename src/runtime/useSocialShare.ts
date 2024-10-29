@@ -25,8 +25,11 @@ export function useSocialShare(options: Options = defaultOptions) {
 
   const pageUrl = computed(() => {
     if (url !== undefined) {
-      if(noParseUrl) return url
-      return new URL(url).href
+      if(noParseUrl) {
+        return url
+      }else {
+        return new URL(url).href
+      }
     }
 
     if (moduleOptions.baseUrl !== '') {
