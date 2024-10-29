@@ -1,12 +1,12 @@
 {
-  "name": "@stefanobartoletti/nuxt-social-share",
+  "name": "@salvolunar/nuxt-social-share",
   "type": "module",
   "version": "1.2.0",
   "packageManager": "pnpm@9.12.3",
   "description": "Simple Social Sharing for Nuxt",
-  "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
+  "author": "Lunar Creative Technology (https://github.com/SalvoLunar/nuxt-social-share)",
   "license": "MIT",
-  "repository": "stefanobartoletti/nuxt-social-share",
+  "repository": "salvolunar/nuxt-social-share",
   "keywords": [
     "nuxt",
     "nuxt-module",
