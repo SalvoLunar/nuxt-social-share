@@ -10,10 +10,11 @@ const defaultOptions = {
   user: undefined,
   hashtags: undefined,
   image: undefined,
+  noParseUrl: false,
 }
 
 export function useSocialShare(options: Options = defaultOptions) {
-  const { network, url, title, user, hashtags, image } = options
+  const { network, url, title, user, hashtags, image, noParseUrl } = options
   const moduleOptions = useRuntimeConfig().public.socialShare
 
   // Get network. Using a shallow copy to avoid mutating the original object
@@ -24,6 +25,7 @@ export function useSocialShare(options: Options = defaultOptions) {
 
   const pageUrl = computed(() => {
     if (url !== undefined) {
+      if(noParseUrl) return url
       return new URL(url).href
     }
 
