@@ -52,24 +52,13 @@ export function useSocialShare(options: Options = defaultOptions) {
 
     // Replace placeholders with actual values
     fullUrl = fullUrl
-      .replace(/\[u\]/i, pageUrl.value)
+      .replace(/\[u\]/i, encodeURI(pageUrl.value))
       .replace(/\[t\]/i, title || '')
       .replace(/\[uid\]/i, user || '')
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
-    // eslint-disable-next-line no-console
-    console.log(fullUrl)
-
-    // eslint-disable-next-line no-console
-    console.log(pageUrl)
-
-    if (noParseUrl) {
-      return fullUrl
-    }
-    else {
-      return new URL(fullUrl).href
-    }
+    return new URL(fullUrl).href
   })
 
   // Update shareNetwork object
