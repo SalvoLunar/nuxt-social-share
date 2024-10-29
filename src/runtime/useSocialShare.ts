@@ -50,6 +50,9 @@ export function useSocialShare(options: Options = defaultOptions) {
 
     let fullUrl = shareUrl + argTitle + argUser + argHashtags + argImage
 
+    //eslint-disable-next-line
+    console.log(encodeURI(pageUrl.value))
+
     // Replace placeholders with actual values
     fullUrl = fullUrl
       .replace(/\[u\]/i, encodeURI(pageUrl.value))
