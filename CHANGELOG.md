@@ -1,5 +1,113 @@
 # Changelog
 
+## 2.0.0 (2024-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* add required `baseUrl` module option
+
+### 🚀 Features
+
+* **a11y:** add `aria-label` attribute to component ([5ed9dd2](https://github.com/salvolunar/nuxt-social-share/commit/5ed9dd2de69501fb52b8c34aa02b4c8605e68441))
+* add `reddit` network ([ab2b968](https://github.com/salvolunar/nuxt-social-share/commit/ab2b968b81ca267b78bf74ed9a2ecccd5c6a37c8))
+* add `skype` network ([df43e41](https://github.com/salvolunar/nuxt-social-share/commit/df43e41a8cebde916c67c6311fe75b791ee8e75e))
+* add `threads` network ([14ac26c](https://github.com/salvolunar/nuxt-social-share/commit/14ac26c847871a45f3e21e732b66627b6d9b2f94))
+* add conditional icon & slot ([160df54](https://github.com/salvolunar/nuxt-social-share/commit/160df5488a3cfead4d54f0edb242359c3857048f))
+* add more URL args to newtorks ([a565fea](https://github.com/salvolunar/nuxt-social-share/commit/a565feaca441bab12c26cdfe22d948fd7deb97b6))
+* add slot for custom label ([8516d5f](https://github.com/salvolunar/nuxt-social-share/commit/8516d5fe0798cb0e631cff8ce6cad7f3d0232547))
+* add support for network aliases (i.e. `twitter` for `x`) ([c84d2c8](https://github.com/salvolunar/nuxt-social-share/commit/c84d2c8406edb203e02123a8e361cbe88c25276e))
+* add support for Viber network ([d932772](https://github.com/salvolunar/nuxt-social-share/commit/d93277298cce41813ca86c932e0d7eac153bc935))
+* expose composable to user ([3501970](https://github.com/salvolunar/nuxt-social-share/commit/3501970168b275b017f338e9d5c505f465f0081a))
+* migrate `twitter` network to `x` ([b42e70f](https://github.com/salvolunar/nuxt-social-share/commit/b42e70f20c5763b64af2cd10b746b6b6c0b62c86))
+* move \`networksMap\` to external function ([f01db7c](https://github.com/salvolunar/nuxt-social-share/commit/f01db7c7109c0b1c5df992a7569c4246606d2c75))
+* **network:** add Bluesky network ([847a083](https://github.com/salvolunar/nuxt-social-share/commit/847a0837d368bb8f7acb46b98abbd4e2ea8e5b70))
+* **network:** add Line network ([cdd8798](https://github.com/salvolunar/nuxt-social-share/commit/cdd8798aa7d3c1090d35fb90fcd896aea5311c9e))
+
+
+### 🩹 Bug Fixes
+
+* add required `baseUrl` module option ([118d48f](https://github.com/salvolunar/nuxt-social-share/commit/118d48fb3b9902f8f7b5f65f48e312d40f62da85))
+* **deps:** bump @nuxt/kit from 3.8.0 to 3.8.1 ([9e53a2b](https://github.com/salvolunar/nuxt-social-share/commit/9e53a2be4efacad228cd4c4a5387b7c3394346db))
+* **deps:** update dependency @iconify-json/lucide to ^1.2.10 ([#272](https://github.com/salvolunar/nuxt-social-share/issues/272)) ([da4a967](https://github.com/salvolunar/nuxt-social-share/commit/da4a96786a37526413b3b4c7de5f0ae7f22bd94d))
+* **deps:** update dependency @iconify-json/lucide to ^1.2.7 ([#261](https://github.com/salvolunar/nuxt-social-share/issues/261)) ([6989b8a](https://github.com/salvolunar/nuxt-social-share/commit/6989b8ac3808849d65652fda17cd99cf90b0496c))
+* **deps:** update dependency @iconify-json/lucide to ^1.2.8 ([#267](https://github.com/salvolunar/nuxt-social-share/issues/267)) ([bcc70b6](https://github.com/salvolunar/nuxt-social-share/commit/bcc70b628af5dce6cad9e171fc66820e7ef6d5fb))
+* **deps:** update dependency @iconify-json/simple-icons to ^1.2.7 ([#251](https://github.com/salvolunar/nuxt-social-share/issues/251)) ([3d72958](https://github.com/salvolunar/nuxt-social-share/commit/3d729586366fa5ee1161d1b89dc9bb79037b6d5a))
+* **deps:** update dependency @iconify-json/simple-icons to ^1.2.8 ([#273](https://github.com/salvolunar/nuxt-social-share/issues/273)) ([b4ba07f](https://github.com/salvolunar/nuxt-social-share/commit/b4ba07f0d3aa0c5859625f8318891b2879833302))
+* **deps:** update dependency @iconify-json/simple-icons to ^1.2.9 ([#286](https://github.com/salvolunar/nuxt-social-share/issues/286)) ([f2c25af](https://github.com/salvolunar/nuxt-social-share/commit/f2c25af32e4667a9940daff333b32930d69e852c))
+* **deps:** update dependency @nuxt/content to ^2.13.4 ([#277](https://github.com/salvolunar/nuxt-social-share/issues/277)) ([37acf76](https://github.com/salvolunar/nuxt-social-share/commit/37acf7608f90583e92a65ed4fff86f700e8444a9))
+* **deps:** update dependency @nuxt/fonts to ^0.10.0 ([#254](https://github.com/salvolunar/nuxt-social-share/issues/254)) ([7d210cc](https://github.com/salvolunar/nuxt-social-share/commit/7d210cc01bc806a115cc2f9bd524f11dcbac035f))
+* **deps:** update dependency @nuxt/fonts to ^0.10.1 ([#288](https://github.com/salvolunar/nuxt-social-share/issues/288)) ([2369273](https://github.com/salvolunar/nuxt-social-share/commit/2369273e5abdb53fa2723658750aec2af101e5d4))
+* **deps:** update dependency @nuxt/fonts to ^0.10.2 ([#291](https://github.com/salvolunar/nuxt-social-share/issues/291)) ([da56e8a](https://github.com/salvolunar/nuxt-social-share/commit/da56e8a7909ce449bd66d4f8829cc507823ddf52))
+* **deps:** update dependency @nuxt/image to ^1.8.1 ([#260](https://github.com/salvolunar/nuxt-social-share/issues/260)) ([7786303](https://github.com/salvolunar/nuxt-social-share/commit/7786303b4916f0e8bbb6d8a065c305c7a6702665))
+* **deps:** update dependency @nuxt/ui-pro to ^1.4.4 ([#268](https://github.com/salvolunar/nuxt-social-share/issues/268)) ([bc47b63](https://github.com/salvolunar/nuxt-social-share/commit/bc47b6391e5b82e3a3e805f231348d4174173360))
+* **deps:** update dependency defu to ^6.1.4 ([974000e](https://github.com/salvolunar/nuxt-social-share/commit/974000e05725b1b014b1b6df95a3e8f0cc7c6b2b))
+* **deps:** update lockfile ([6578622](https://github.com/salvolunar/nuxt-social-share/commit/65786227c6a8a198612f5aba7748140cdebe5c83))
+* **deps:** update lockfile ([fc32523](https://github.com/salvolunar/nuxt-social-share/commit/fc32523606dd8ca0ee94e4f466f8a5317d5a3068))
+* **deps:** update nuxt monorepo to ^3.10.3 ([443321d](https://github.com/salvolunar/nuxt-social-share/commit/443321d1df551d2352710ca974002336b3d34551))
+* **deps:** update nuxtjs monorepo to ^3.10.3 ([f9a136c](https://github.com/salvolunar/nuxt-social-share/commit/f9a136cb102fcba85e9c691fc39b5bc72d02f1ea))
+* **deps:** update nuxtjs monorepo to ^3.11.1 ([ad8ac2c](https://github.com/salvolunar/nuxt-social-share/commit/ad8ac2c57bf2e0914b08d2ff5c83fd7a4471bf2e))
+* **deps:** update nuxtjs monorepo to ^3.12.3 ([5c2e0a9](https://github.com/salvolunar/nuxt-social-share/commit/5c2e0a9c39e21f80af30d62e7a25dfdc35efdfc8))
+* **deps:** update nuxtjs monorepo to ^3.12.4 ([4583cbf](https://github.com/salvolunar/nuxt-social-share/commit/4583cbfd3635380bb326e097c55ce6988b277722))
+* **deps:** update nuxtjs monorepo to ^3.13.0 ([99d7654](https://github.com/salvolunar/nuxt-social-share/commit/99d7654d449a61fa6e673a2b5c7b0ad6c3a3588b))
+* **deps:** update nuxtjs monorepo to ^3.13.1 ([ea0fed1](https://github.com/salvolunar/nuxt-social-share/commit/ea0fed1c984c58f8e71ac5b0842bc95f71ff1d20))
+* **deps:** update nuxtjs monorepo to ^3.13.2 ([#243](https://github.com/salvolunar/nuxt-social-share/issues/243)) ([de5156a](https://github.com/salvolunar/nuxt-social-share/commit/de5156a39d02a7d027fc133c0cd4e2e05bada28f))
+* **deps:** update nuxtjs monorepo to ^3.8.2 ([48f7a32](https://github.com/salvolunar/nuxt-social-share/commit/48f7a320d47dceb963c956e2a53d08d71b1ee5bd))
+* **deps:** use @iconify/vue as primary dep ([189ba16](https://github.com/salvolunar/nuxt-social-share/commit/189ba16fccf7deec3d07e99347adbcc5328a7b07))
+* fix build script ([db18f2e](https://github.com/salvolunar/nuxt-social-share/commit/db18f2e9bbb3bcaa2dec1165842536ecd6e7809a))
+* fix variable name typo ([c525788](https://github.com/salvolunar/nuxt-social-share/commit/c5257886852268e0b1a14e6dd8998ec84e12d8f2))
+* lower css specificity to allow style override ([5119017](https://github.com/salvolunar/nuxt-social-share/commit/511901769028345380c6b2ad266832fb7a256c9d))
+* update "line" share URL ([bea0495](https://github.com/salvolunar/nuxt-social-share/commit/bea049537758fa942c962ef544dccf4d5b77ebeb))
+* update readme ([2445c3c](https://github.com/salvolunar/nuxt-social-share/commit/2445c3c554f4132f4312a77f77379b41b0ef556e))
+* update x/twiter share url ([ce0e4ff](https://github.com/salvolunar/nuxt-social-share/commit/ce0e4ff4aa0a54b5627aa930d3102675339a5095))
+* use shallow copy of networks index ([21d4b9d](https://github.com/salvolunar/nuxt-social-share/commit/21d4b9d5a9d1bdf6472e735dd031f1f79e7a21e4))
+* use URL constructor to return share URL ([8d5dcae](https://github.com/salvolunar/nuxt-social-share/commit/8d5dcaed8ed7e351fdb03ccc2ad6eebc5b5de2c2))
+* use URL constructors to return URLs ([b665186](https://github.com/salvolunar/nuxt-social-share/commit/b665186144ff2d875e11ace387a8aa692d8a2643))
+
+
+### 📖 Documentation
+
+* add demo link ([fd910f1](https://github.com/salvolunar/nuxt-social-share/commit/fd910f18ca203d57476aa7f4d7e830a700878808))
+* add documentation for slot and localization ([6c8a1cc](https://github.com/salvolunar/nuxt-social-share/commit/6c8a1cc05848da42c87fba8fb0e4a077896fbfa4))
+* add documentation for the icon slot ([17254c8](https://github.com/salvolunar/nuxt-social-share/commit/17254c8e022595a6954a5b03db2e81fe4ff3aff8))
+* add documentation site ([a6c4552](https://github.com/salvolunar/nuxt-social-share/commit/a6c4552653464e7b20f93bd7623fc72be68a5b29))
+* add note abuout using env variable ([22867b5](https://github.com/salvolunar/nuxt-social-share/commit/22867b5f0d0c563da3314f78443f5afd84c3a663))
+* fix networksIndex import ([195c37b](https://github.com/salvolunar/nuxt-social-share/commit/195c37b637489381cef7a1804c17a6e72e674e6e))
+* fix opengraph image ([3d3204f](https://github.com/salvolunar/nuxt-social-share/commit/3d3204f0b2590acaa8a23175eb31c8686e83ea6a))
+* fix readme formatting ([540f4cc](https://github.com/salvolunar/nuxt-social-share/commit/540f4cc932516359ffce789e280acb1bfa53687b))
+* **fix:** add note for optional configuration ([97dc465](https://github.com/salvolunar/nuxt-social-share/commit/97dc4652abcd320b7d2e87d4857dde6d13b05bf1))
+* update contributing guidelines ([d13422e](https://github.com/salvolunar/nuxt-social-share/commit/d13422e366acb3e9bb89e69c5af95fa39b04960f))
+* update contributing guidelines ([858dc44](https://github.com/salvolunar/nuxt-social-share/commit/858dc445c88f29235e950de263b5995dff6b4044))
+* update docs ([bf59320](https://github.com/salvolunar/nuxt-social-share/commit/bf593206f971b99564de9fa864ea4aefa9370ae8))
+* update docs ([69590f3](https://github.com/salvolunar/nuxt-social-share/commit/69590f3b77f06bf487a5b03f9582c20b5a22dfbf))
+* update docs ([3355aab](https://github.com/salvolunar/nuxt-social-share/commit/3355aab1b414d0c65e9ba2bfee27f742b2ebdd32))
+* update playground example page ([83f2209](https://github.com/salvolunar/nuxt-social-share/commit/83f220905a1eae9e804d691d1a89904e02c31a7c))
+* update playground page ([69d0349](https://github.com/salvolunar/nuxt-social-share/commit/69d034933ab88ac2f553b99cba5e335504f7f3df))
+* update preview image ([e615f85](https://github.com/salvolunar/nuxt-social-share/commit/e615f8574028fb04c997c6a3e194d4eeb5dde630))
+* update readme ([e67fc6f](https://github.com/salvolunar/nuxt-social-share/commit/e67fc6f83ccaf5ed1897c3cc64ff652fcbbd7bdc))
+* update readme ([ec9195f](https://github.com/salvolunar/nuxt-social-share/commit/ec9195fb75e4b744d11a462328b8c740ac611293))
+* update readme ([75e2713](https://github.com/salvolunar/nuxt-social-share/commit/75e27133567d6121f2728d3e242b0da9c679fc57))
+* update readme ([f1b9c6c](https://github.com/salvolunar/nuxt-social-share/commit/f1b9c6c5bb0aceb001a6489a9d38a2747b22a33e))
+* update readme ([fb6ea22](https://github.com/salvolunar/nuxt-social-share/commit/fb6ea2268a7f7d88cbedc50170f05010d1b61633))
+* update readme with new features ([210c878](https://github.com/salvolunar/nuxt-social-share/commit/210c878df7be294ad4efa7ea8fd9f2754efe42a0))
+* use new `nuxi module add` command in installation ([dcbcb10](https://github.com/salvolunar/nuxt-social-share/commit/dcbcb1034d74e47aebb717b8f6e8fef1be95c0fa))
+
+
+### ⚙️ Refactor
+
+* build shareurl as computed property ([2c49e06](https://github.com/salvolunar/nuxt-social-share/commit/2c49e06c6a7d19e0e87a8f8cce354ea9a57fcafb))
+* extract social networks map ([5c1306b](https://github.com/salvolunar/nuxt-social-share/commit/5c1306bdcce45ed299c7c39250575d723294df8b))
+* fix network names and remove unneeded capitalization function ([32d10df](https://github.com/salvolunar/nuxt-social-share/commit/32d10dff52f7722117e7de4f9805c66685be0f49))
+* migrate to typescript ([e9578eb](https://github.com/salvolunar/nuxt-social-share/commit/e9578eb5e66992c02ecf5ed676c0f0e4f62c5f71))
+* remove `@iconify/vue` dependency and use local icons definitions ([35d57cb](https://github.com/salvolunar/nuxt-social-share/commit/35d57cb6cc7bb7d29cd6cbcba6794635ae53a96f))
+* remove unneeded sass dependency ([e4ea60c](https://github.com/salvolunar/nuxt-social-share/commit/e4ea60c665c4709e9158cbef0af2bc563221d28a))
+* use color values from JS for CSS styles ([d43aefa](https://github.com/salvolunar/nuxt-social-share/commit/d43aefac180b383504fc28ffd97ac2b0194217b1))
+
+
+### 🔙 Reverts
+
+* remove unwanted custom eslint rules ([bdd31e3](https://github.com/salvolunar/nuxt-social-share/commit/bdd31e3f86d8ba840c090d19be0755be56517406))
+
 ## [1.2.0](https://github.com/stefanobartoletti/nuxt-social-share/compare/v1.1.5...v1.2.0) (2024-10-24)
 
 
