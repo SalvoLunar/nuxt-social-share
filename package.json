@@ -1,7 +1,7 @@
 {
   "name": "@salvolunar/nuxt-social-share",
   "type": "module",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "packageManager": "pnpm@9.12.3",
   "description": "Simple Social Sharing for Nuxt",
   "author": "Lunar Creative Technology (https://github.com/SalvoLunar/nuxt-social-share)",
