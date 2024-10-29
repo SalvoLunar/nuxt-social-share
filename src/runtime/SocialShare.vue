@@ -36,6 +36,7 @@ const props = defineProps({
   user: { type: String, default: undefined },
   hashtags: { type: String, default: undefined },
   image: { type: String, default: undefined },
+  noParseUrl: { type: Boolean, default: false },
 })
 
 const moduleOptions = useRuntimeConfig().public.socialShare
@@ -51,6 +52,7 @@ const selectedNetwork = useSocialShare({
   user: props.user,
   hashtags: props.hashtags,
   image: props.image,
+  noParseUrl: props.noParseUrl,
 })
 </script>
 
