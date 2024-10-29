@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.0.7](https://github.com/salvolunar/nuxt-social-share/compare/2.0.6...2.0.7) (2024-10-29)
+
 ## [2.0.6](https://github.com/salvolunar/nuxt-social-share/compare/2.0.5...2.0.6) (2024-10-29)
 
 ## [2.0.5](https://github.com/salvolunar/nuxt-social-share/compare/2.0.4...2.0.5) (2024-10-29)
