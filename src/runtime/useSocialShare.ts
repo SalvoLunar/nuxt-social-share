@@ -27,7 +27,8 @@ export function useSocialShare(options: Options = defaultOptions) {
     if (url !== undefined) {
       if (noParseUrl) {
         return url
-      } else {
+      }
+      else {
         return new URL(url).href
       }
     }
