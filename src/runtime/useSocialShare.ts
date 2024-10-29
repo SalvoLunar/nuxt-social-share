@@ -58,8 +58,15 @@ export function useSocialShare(options: Options = defaultOptions) {
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
-    if(noParseUrl) return fullUrl
-    return new URL(fullUrl).href
+    console.log(fullUrl)
+    console.log(pageUrl)
+
+    if (noParseUrl) {
+      return fullUrl
+    }
+    else {
+      return new URL(fullUrl).href
+    }
   })
 
   // Update shareNetwork object
