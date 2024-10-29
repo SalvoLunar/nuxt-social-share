@@ -5,6 +5,7 @@ export interface Options {
   user?: string
   hashtags?: string
   image?: string
+  noParseUrl?: boolean
 };
 
 export interface Network {
