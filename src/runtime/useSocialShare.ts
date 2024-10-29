@@ -58,8 +58,6 @@ export function useSocialShare(options: Options = defaultOptions) {
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
-
-
     return new URL(fullUrl).href
   })
 
