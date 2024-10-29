@@ -58,7 +58,6 @@ export function useSocialShare(options: Options = defaultOptions) {
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
-<<<<<<< HEAD
     // eslint-disable-next-line no-console
     console.log(fullUrl)
 
@@ -71,13 +70,6 @@ export function useSocialShare(options: Options = defaultOptions) {
     else {
       return new URL(fullUrl).href
     }
-=======
-    console.log(pageUrl)
-    console.log(fullUrl)
-
-    if(noParseUrl) return fullUrl
-    return new URL(fullUrl).href
->>>>>>> main
   })
 
   // Update shareNetwork object
