@@ -71,7 +71,6 @@ export function useSocialShare(options: Options = defaultOptions) {
     selectedNetwork.value.shareUrl = fullShareUrl.value
   }
 
-
   delete selectedNetwork.value.args
 
   return selectedNetwork
