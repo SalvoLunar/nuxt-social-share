@@ -58,7 +58,10 @@ export function useSocialShare(options: Options = defaultOptions) {
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
+    // eslint-disable-next-line no-console
     console.log(fullUrl)
+
+    // eslint-disable-next-line no-console
     console.log(pageUrl)
 
     if (noParseUrl) {
