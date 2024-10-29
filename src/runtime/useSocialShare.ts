@@ -58,17 +58,12 @@ export function useSocialShare(options: Options = defaultOptions) {
       .replace(/\[h\]/i, hashtags || '')
       .replace(/\[i\]/i, image || '')
 
+    if(noParseUrl) return fullUrl
     return new URL(fullUrl).href
   })
 
   // Update shareNetwork object
-  if (url && noParseUrl) {
-    selectedNetwork.value.shareUrl = url
-  }
-  else {
-    selectedNetwork.value.shareUrl = fullShareUrl.value
-  }
-
+  selectedNetwork.value.shareUrl = fullShareUrl.value
   delete selectedNetwork.value.args
 
   return selectedNetwork
